@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+@keyframes slideInRight{
+    0% {
+        transform: translateX(-100%);
+      }
+      100% {
+        transform: translateX(0);
+      }
+}
+
+@keyframes slideInTop{
+    0% {
+        transform: translateX(-100%);
+      }
+      100% {
+        transform: translateX(0);
+      }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #FFA3A5;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+     font-style: normal;
+    display: flex;
+    justify-content: center;
+    animation: 2s ease-out 0s 1 slideInRight;
+
+}
+
+a:hover{
+    background-color: #FF69EB;
+}
+
+a{
+    padding: 0.5rem;
+    background-color: #FFBF81;
+    border-radius: 5px;
+    border: 2px solid rgb(226, 65, 65);
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+#righside{
+    display: flex;
+    align-items: center;
+}
+
+#leftside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    gap: 30px;
+}
+
+#leftside img{
+    width: 500px;
+    animation: 4s ease-out 0s 1 slideInTop;
+}
+
+#text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 800px;
+    height: 500px;
+    margin-top: 300px;
+    gap: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
